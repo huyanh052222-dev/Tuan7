@@ -78,12 +78,22 @@ input::placeholder{
     max-height: 24px;
     margin: 14px 20px;
 }
+
 .avt{
     width:100%;
     max-width: 52px;
     height: 100%;
     border-radius: 10px;
 
+}
+#imga{
+    background-color: #fff;
+    width: 52px;
+    height: 52px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 #avt{
     object-fit: cover;
@@ -173,6 +183,9 @@ input::placeholder{
 
 .boxmul{
     padding: 0px 32px;
+}
+.item{
+    gap: 12px;
 }
 .item_content{
     display: flex;
